@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./icon-site/lista_icon.ico" type="image/x-icon">
+        <title>Lista de tarefas</title>
+        <link rel="stylesheet" href="./main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Bungee&family=Dosis&family=Foldit&family=Oswald&family=Prompt:wght@400;800&family=Roboto:wght@400;700&family=Vina+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <div class="image-title">
+                    <img src="./images/lista.png" alt="Emoji de lista">
+                    <h1>Lista de tarefas</h1>
+                </div>
+                <div class="inputs">
+                    <input type="text" id="item" placeholder="Tarefa" required>
+                    <button type="submit">Adicionar +</button>
+                </div>
+            </form>
+            <section>
+                <ol id="list">
+                </ol>
+            </section>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>

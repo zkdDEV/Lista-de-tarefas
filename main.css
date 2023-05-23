@@ -1,0 +1,102 @@
+/*Configurações gerais*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*##################################################################################################*/
+
+/*Configurações do corpo*/
+body
+{
+    background-color: #e7e7e7;
+}
+
+/*##################################################################################################*/
+
+/*Configurações da div container*/
+.container
+{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*##################################################################################################*/
+
+/*Configurações do fomulário*/
+form
+{
+    margin-top: 50%;
+}
+form .image-title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+form .image-title img
+{
+    height: 80px;
+}
+form .image-title h1
+{
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+}
+form .inputs
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+form .inputs input
+{
+    font-size: 20px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+form .inputs button
+{
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    background-color: rgb(0, 180, 0);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+form .inputs button:hover
+{
+    background-color: rgb(0, 115, 0);
+}
+
+/*##################################################################################################*/
+
+/*Configurações da seção*/
+section ol
+{
+    margin-left: 15px;
+}
+section li
+{
+    margin-top: 20px;
+}
+section li p
+{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.riscado
+{
+    text-decoration: line-through
+}
