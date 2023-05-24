@@ -13,7 +13,7 @@ $(document).ready(function()
         $('#item').val('')
     })
 
-    $('li').click(function() 
+    $('ol').on('click','li',function()
     {
         $(this).addClass('riscado')
     });
